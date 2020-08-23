@@ -94,19 +94,31 @@ textarea {
 /*
  * Hide visually and from screen readers
  */
+
+
  header,
  footer {
      display: flex;
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
- }
+}
+
+header{
+  padding: 15px 0;
+}
 
  header .content-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    width: 89%;
+    margin:0;
+}
+
+header .header-divider{
+  width: 44%;
 }
 
 header nav{
@@ -114,12 +126,44 @@ header nav{
    justify-content: space-around;
    align-items: center;
    flex-flow: row wrap;
+   width: 60%;
 }
 
 header nav ul{
    display: flex;
    justify-content: space-around;
+   width:17%;
+   list-style-type: none;
+}
 
+header nav ul a{
+  padding-left: 63px;
+  text-decoration: none;
+}
+
+main .hero-area{
+  padding-top: 22px;
+  padding-bottom: 28px;
+}
+
+input[type=text]{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 310px;
+  height:42px;
+  text-align: center;
+}
+
+input[type=button]{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin-top: 17px;
+  width: 320px;
+  height:48px;
 }
 
 footer .social-icons{
@@ -128,10 +172,26 @@ footer .social-icons{
    align-items: center;
 }
 
+footer .social-icons li{
+  display: flex;
+  justify-content: space-around;
+  display: inline-block;
+  list-style-type: none;
+}
+
 footer social{
    display: flex;
    justify-content: center;
    align-items: center;
+}
+
+footer .content-wrapper {
+   width: 55%;
+   margin: 50px 0;
+}
+
+footer p{
+  margin:0;
 }
 
 .hero-area{
@@ -148,6 +208,14 @@ aside{
    flex-flow: row wrap;
 }
 
+aside .form-description{
+  padding-bottom:39px;
+}
+
+aside .form h3{
+  padding-bottom:17px;
+}
+
 .features {
    display: flex;
    justify-content: center;
@@ -155,17 +223,29 @@ aside{
    flex-flow: row wrap;
 }
 
-.features features-items{
+.features p{
+  margin:0;
+}
+
+.features features-item{
    display: flex;
    justify-content: center;
    align-items: center;
    flex-flow: row wrap;
 }
 
+.features article{
+  width: 56%;
+}
+
 .reviews {
    display: flex;
    justify-content: center;
    flex-flow: row wrap;
+}
+
+.reviews h3{
+  width: 48%;
 }
 
 .mission{
