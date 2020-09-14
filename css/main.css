@@ -401,7 +401,7 @@ aside h3{
     overflow: hidden;
     position: relative;
 }
-
+/*embedded map - use easy method via this link - http://embedresponsively.com/*/
 .map iframe {
     width: 100%;
     height: 100%;
@@ -689,10 +689,26 @@ aside h3{
    .mission-content p {
      width: 45%;
   }
+/*embedded map - use easy method via this link - http://embedresponsively.com/*/
+  .map figure {
+      width: 100%;
+      height: 21%;
+      padding-bottom: 50%;
+      overflow: hidden;
+      position: relative;
+  }
 
-    .contact-section .content-wrapper h2 {
+  .map iframe {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+  }
+
+   .contact-section .content-wrapper h2 {
         width:80%;
-    }
+  }
 
     .contact-content {
         display:flex;
@@ -819,6 +835,22 @@ aside h3{
   .contact-section .content-wrapper h2 {
     width: 95%;
     font-size: 3em;
+  }
+
+  .map figure {
+      width: 100%;
+      height: 26%;
+      padding-bottom: 30%;
+      overflow: hidden;
+      position: relative;
+  }
+/*embedded map - use easy method via this link - http://embedresponsively.com/*/
+  .map iframe {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
   }
 
   .contact-content h4 {
