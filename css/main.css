@@ -153,7 +153,6 @@ h4 {
      font-size: 1.5em;
      margin: 20px 0;
      font-weight: 500;
-
 }
 
 p {
@@ -173,6 +172,16 @@ address {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   font-style: normal;
+}
+
+footer .social-icons p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #527158;
+  border-radius:50%;
+  width: 40px;
+  height: 40px;
 }
 
 .content-wrapper {
@@ -273,15 +282,8 @@ footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
 }
 
-
-footer .social-icons p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 footer .copyright {
   margin: 20px 0;
@@ -678,6 +680,11 @@ aside h3{
 
   footer p {
       line-height: 1.285;
+  }
+
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
   }
 
   footer .copyright {
