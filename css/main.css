@@ -231,7 +231,7 @@ header figure {
     align-items: center;
     flex-flow: row wrap;
     margin:0;
-}
+  }
 
 .header-divider {
   width: 100%;
@@ -246,6 +246,7 @@ header nav{
    flex-flow: row wrap;
    width: 60%;
    text-transform: uppercase;
+
 }
 
 header nav ul{
@@ -352,12 +353,10 @@ aside h3{
   color:#e2e3ed;
 }
 
-.features features-item{
+.features .features-items{/*correction//////////////////////////////*/
    display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-flow: row wrap;
-}
+   flex-flow: wrap;
+  }
 
 .features article{
   width: 60%;
@@ -612,6 +611,16 @@ aside h3{
 
   /* Features */
 
+  .features .features-items{/*correction//////////////////////////////*/
+     display: flex;
+     flex-flow: wrap;
+     align-items: baseline;
+  }
+
+  .features p{
+    width: 55%;
+  }
+
   .features article {
     display: flex;
     justify-content: center;
@@ -808,6 +817,15 @@ aside h3{
 
   /* Features */
 
+  .features .features-items{/*correction//////////////////////////////*/
+     display: flex;
+     flex-flow: wrap;
+     align-items: baseline;
+  }
+
+  .features p{
+    width: 55%;
+  }
    .features h2 {
      width: 90%;
    }
